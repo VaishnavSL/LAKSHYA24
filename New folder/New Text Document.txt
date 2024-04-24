@@ -1,0 +1,12 @@
+https://github.com/abhikumar21/WebDevExplorers/blob/main/a1_Image_Slider/index.html
+
+
+
+System.InvalidOperationException: Couldn't get process information from performance counter. ---> System.ComponentModel.Win32Exception: Unknown error (0xc0000017)
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.NtProcessInfoHelper.GetProcessInfos(Predicate`1 processIdFilter)
+   at System.Diagnostics.ProcessManager.GetProcessInfosCore(String machineName, Boolean isRemoteMachine)
+   at System.Diagnostics.Process.GetProcesses(String machineName)
+   at System.Diagnostics.Process.GetProcessesByName(String processName, String machineName)
+   at System.Diagnostics.Process.GetProcessesByName(String processName)
+   at BeWidgets.MainWindow.<GetOtherBeWidgetsAppsTimer_Elapsed>b__29_0() - BeWidgets Version: 0.13.7.74
