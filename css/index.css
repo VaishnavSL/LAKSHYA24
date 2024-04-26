@@ -368,7 +368,7 @@ body {
 .slider {
     width: 100%;
     max-width: 1170px;
-    height: 700px;
+    height: 15  00px;
     overflow: auto;
     padding: 100px;
     box-sizing: border-box;
@@ -585,3 +585,33 @@ ul {
         width: 100%;
     }
 }
+.fade-in-left {
+    opacity: 0;
+    transform: translateX(-50px); /* Start off-screen to the left */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in-right {
+    opacity: 0;
+    transform: translateX(50px); /* Start off-screen to the right */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in-left.active,
+.fade-in-right.active {
+    opacity: 1;
+    transform: translateX(0); /* Fade in and move to the original position */
+}
+
+.pop-up-element {
+    opacity: 0;
+    transform: scale(0.5); /* Start smaller */
+    transition: opacity 0.3s ease, transform 0.5s ease;
+}
+
+.pop-up-element.active {
+    opacity: 1;
+    transform: scale(1); /* Scale up */
+}
+    
+  
