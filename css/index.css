@@ -248,6 +248,12 @@ body {
     --color-outline: #ff145b80;
     --color-shadow: #02020280;
 }
+@media screen and (max-width: 480px) {
+    .btn-conteiner{
+        margin-top: 25%;
+       
+    }
+  }
 
 .btn-content {
     display: flex;
