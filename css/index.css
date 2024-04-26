@@ -343,27 +343,33 @@ body {
 }
 
 /* Slider section */
-.two h2{
-        font-size: 150px;
+.ah h2{
+        font-size: 70px;
         background: -webkit-linear-gradient(#756d80, #773fc6);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        /* margin-left: 100px; */
-        margin-bottom: -100px;
+        margin-left: 50%;
         font-family: "Jersey 10", sans-serif;
       
 }
+@media (max-width=900) {
+      .ah h2 {
+          font-size: 120px;
+      }  
+}
+
+  
 .slider {
     width: 100%;
     max-width: 1170px;
-    height: 900px;
+    height: 700px;
     overflow: auto;
     padding: 100px;
     box-sizing: border-box;
     /* backdrop-filter: blur(10px); */
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    margin: 0 auto;
+  margin-left: 20%;
 }
 
 .slider::-webkit-scrollbar {
@@ -462,6 +468,9 @@ body {
 
 ul {
     list-style: none;
+}
+.two{
+    margin-left: -230px;
 }
 
 /* Footer */
