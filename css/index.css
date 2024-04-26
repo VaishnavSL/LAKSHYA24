@@ -230,7 +230,14 @@ body {
     text-align: center;
     margin: 10% auto;
 }
-
+.about_us h2{
+    font-size: 90px;
+    font-family: "Jersey 10", sans-serif;
+    color: #773fc6;
+    background: -webkit-linear-gradient(#756d80, #773fc6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .about_us p {
     color: white;
 }
